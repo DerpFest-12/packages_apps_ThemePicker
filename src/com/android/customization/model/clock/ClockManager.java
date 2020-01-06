@@ -29,10 +29,9 @@ import org.json.JSONObject;
  */
 public class ClockManager extends BaseClockManager {
 
-    // TODO: use constant from Settings.Secure
-    static final String CLOCK_FACE_SETTING = "lock_screen_custom_clock_face";
     private static final String CLOCK_FIELD = "clock";
     private static final String TIMESTAMP_FIELD = "_applied_timestamp";
+    static final String CLOCK_FACE_SETTING = Secure.LOCK_SCREEN_CUSTOM_CLOCK_FACE;
     private final ContentResolver mContentResolver;
     private final ThemesUserEventLogger mEventLogger;
 
