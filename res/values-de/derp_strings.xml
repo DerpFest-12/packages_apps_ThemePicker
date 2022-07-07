@@ -21,8 +21,11 @@
     <string name="preset_color_tab">Standardfarben</string>
     <string name="color_changed">Farbe geändert</string>
 
+    <!-- Icon's section -->
+    <string name="icon_preview_card_content_description">Symbolvorschau</string>
     <string name="icon_pack_title">Systemsymbole</string>
 
+    <!-- Font's section -->
     <string name="font_title">Systemschriftart</string>
-    <string name="font_preview_card_content_description">Vorschau der Schriftart</string>
+    <string name="font_preview_card_content_description">Schriftvorschau</string>
 </resources>
